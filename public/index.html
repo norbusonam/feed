@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.6/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.6/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.6/dist/js/uikit-icons.min.js"></script>
+    <title>Live Feed</title>
+  </head>
+  <body>
+    <nav class="uk-navbar-container uk-margin" uk-navbar>
+      <div class="uk-navbar-center">
+        <a class="uk-navbar-item uk-logo" href="/">Live Feed</a>
+      </div>
+    </nav>
+    <div class="uk-container uk-width-1-2@m uk-width-1-1 uk-align-center">
+      <!-- ACTIVE USERS -->
+      <p class="uk-text-lead uk-text-center uk-margin-remove">0</p>
+      <p class="uk-text-meta uk-text-center uk-margin-remove">Users online</p>
+      <hr class="uk-divider-icon">
+      <!-- NEW POST FORM -->
+      <form>
+        <div class="uk-margin">
+          <input class="uk-input" type="text" placeholder="Title">
+        </div>
+        <div class="uk-margin">
+          <textarea class="uk-textarea" rows="3" placeholder="Content" style="resize: none;"></textarea>
+        </div>
+        <div class="uk-margin">
+          <button class="uk-button uk-button-default uk-align-center">Post</button>
+        </div> 
+      </form> 
+      <hr class="uk-divider-icon">
+      <!-- POSTS -->
+      <ul class="uk-list">
+        <li>
+          <div class="uk-card uk-card-default">
+            <div class="uk-card-header">
+              <div class="uk-grid-small uk-flex-middle" uk-grid>
+                <div class="uk-width-expand">
+                  <h3 class="uk-card-title uk-margin-remove-bottom">Title</h3>
+                  <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                </div>
+              </div>
+            </div>
+            <div class="uk-card-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
