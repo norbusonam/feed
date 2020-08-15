@@ -1,7 +1,7 @@
 {
   "name": "live-feed",
   "version": "1.0.0",
-  "description": "A live feed of posts (for practice with WebSockets)",
+  "description": "A real time post feed implemented with Socket.IO",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
