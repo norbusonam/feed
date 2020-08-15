@@ -1,0 +1,27 @@
+{
+  "name": "live-feed",
+  "version": "1.0.0",
+  "description": "A live feed of posts (for practice with WebSockets)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/norbusonam/live-feed.git"
+  },
+  "author": "Norbu Sonam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/norbusonam/live-feed/issues"
+  },
+  "homepage": "https://github.com/norbusonam/live-feed#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
