@@ -20,5 +20,5 @@ npm start
 
 To run the server using [nodemon](https://www.npmjs.com/package/nodemon) (for development), run this command:
 ```
-npm test
+npm run dev
 ```
